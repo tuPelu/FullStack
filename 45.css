@@ -1,0 +1,144 @@
+
+div.static {
+  position: static;
+  /* left: 30px; No hace nada */
+  border: 3px solid #73AD21;
+}
+div.relative {
+    position: relative;
+    left: 30px;
+    border: 3px solid #73AD21;
+  }
+  div.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 300px;
+    border: 3px solid #73AD21;
+  }
+  div.relative02 {
+    position: relative;
+    width: 400px;
+    height: 200px;
+    border: 3px solid #73AD21;
+  } 
+  
+  div.absolute {
+    position: absolute;
+    top: 0px;
+    right: 0;
+    width: 200px;
+    height: 100px;
+    border: 3px solid #73AD21;
+  }
+  
+  div.absolute02 {
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    margin: 50px 100px;
+    border: 3px solid #73AD21;
+  }
+  
+  div.centered { 
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    width: 200px;
+    height: 100px;
+    position: absolute;   
+    margin: auto;
+    border: 3px solid #73AD21;     
+    text-align: center;
+  }
+  
+
+  div.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    padding: 5px;
+    background-color: #cae8ca;
+    border: 2px solid #4CAF50;
+  }
+
+  /* CAPAS */
+  
+  /* CON z-index */
+  /* z-index: -1; = Detrás */
+  img.detras {
+    position: absolute;
+    z-index: -1;
+  }
+
+  /* z-index: 1; = Delante */
+  img.delante {
+    position: absolute;
+    z-index: 1;
+    opacity: .80;
+  }
+
+  .container {
+    position: relative;
+  }
+  
+  .black-box {
+    position: relative;
+    z-index: 1;
+    border: 2px solid black;
+    height: 100px;
+    margin: 30px;
+  }
+  
+  .gray-box {
+    position: absolute;
+    z-index: 3; /* gray box will be above both green and black box */
+    background: lightgray;
+    height: 60px;  
+    width: 70%;
+    left: 50px;
+    top: 50px;
+  }
+  
+  .green-box {
+    position: absolute;
+    z-index: 2; /* green box will be above black box */
+    background: lightgreen;
+    width: 35%;
+    left: 270px;
+    top: -15px;
+    height: 100px;
+  }
+
+
+
+  /* SIN z-index */
+  .container-sin {
+    position: relative;
+  }
+  
+  .black-box-sin {
+    position: relative;
+    border: 2px solid black;
+    height: 100px;
+    margin: 30px;
+  }
+  
+  .gray-box-sin {
+    position: absolute;
+    background: lightgray;
+    height: 60px;  
+    width: 70%;
+    left: 50px;
+    top: 50px;
+  }
+  
+  .green-box-sin {
+    position: absolute;
+    background: lightgreen;
+    width: 35%;
+    left: 270px;
+    top: -15px;
+    height: 100px;
+  }

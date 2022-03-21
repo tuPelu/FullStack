@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>Parsear o leer JSON con jQuery - EjemploCodigo</title>
+<link rel="stylesheet" href="cssestilo.css">
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js" ></script> 
+
+	
+	
+</head>
+
+
+<body>
+ 
+
+
+        <!-- Cabecera -->
+        <header>
+            <h1>Parsear o leer JSON con jQuery</h1>
+        </header>
+
+        <!-- Contenido -->
+        <section>
+            
+
+			<table class="grilla" id="tablajson">
+			<thead>
+			<th>Id</th>
+			<th>Nombre</th>
+			<th>Edad</th>
+			<th>Género</th>
+			<th>Email</th>			
+			<th>Localidad</th>
+			<th>Teléfono</th>			
+			</thead>
+			<tbody></tbody>
+			</table>
+
+			<script type="text/javascript">
+
+			$(document).ready(function(){
+			var url="https://tupelu.es/full_stack/api/api.php/clientes?transform=1";
+			/*var url="https://tupelu.es/full_stack/json2table/php/generarJSON.php";	*/		
+			$("#tablajson tbody").html("");
+			$.getJSON(url,function(result){
+			$.each(result.clientes, function(i,cliente){
+			var newRow =
+			"<tr>"
+			+"<td>"+cliente.id+"</td>"
+			+"<td>"+cliente.nombre+"</td>"
+			+"<td>"+cliente.edad+"</td>"
+			+"<td>"+cliente.genero+"</td>"
+			+"<td>"+cliente.email+"</td>"
+			+"<td>"+cliente.localidad+"</td>"
+			+"<td>"+cliente.telefono+"</td>"
+			+"</tr>";
+			$(newRow).appendTo("#tablajson tbody");
+			});
+			});
+			});
+
+			</script>
+
+ 
+        </section>
+
+
+
+        <!-- Pie de pagina -->
+        <footer>
+				<p>Visita el artículo del ejemplo en: <a href="http://www.ejemplocodigo.com/php/ejemplo-php-crear-y-leer-json-de-una-tabla-mysql/">http://www.ejemplocodigo.com/php/ejemplo-php-crear-y-leer-json-de-una-tabla-mysql/</a></p>
+                <p><a href="http://www.ejemplocodigo.com">www.ejemplocodigo.com</a></p>
+        </footer>
+
+
+</body>
+</html>

@@ -1,0 +1,43 @@
+  /*Margin y Padding*/
+  div {
+    border: 1px solid black;
+    background-color: lightblue;
+  }
+  div.special {
+    margin: 25px 50px 75px 100px;
+    margin: 100px;
+    padding: 25px 50px 75px 100px;
+    padding: 100px;
+  }
+  div.intern {
+    margin: auto;
+    background-color: rgb(238, 255, 0);
+    width: max-content;
+  }
+  div.secund {
+    margin-left: 200px;
+  }
+  p.ex1 {
+    margin-left: inherit;
+  }
+  div.ex1 {
+    width: 300px;
+    background-color: yellow;
+  }  
+  div.ex2 {
+    width: 300px;
+    padding: 25px;
+    box-sizing: border-box;
+    background-color: lightblue;
+  }
+  div.ex3 {
+    width: 300px;
+    padding: 25px;
+    background-color: lightblue;
+  }
+  div.ex4 {
+    max-width: 500px;
+    height: 100px;
+    background-color: powderblue;
+  }
+  

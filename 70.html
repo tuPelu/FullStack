@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="71.css">
+        <script>
+            function myFunction01() {
+                document.getElementById("pruebas").innerHTML = "Funcion01";
+            }
+        </script>
+        <script src="72.js"></script>
+    </head>
+    <body>
+        <h2>What Can JavaScript Do?</h2>
+        <p id="pruebas">JavaScript can change HTML content.</p>
+        <script>
+            document.getElementById("pruebas").innerHTML = "El javascript que se ejecuta al abrir la pagina";
+        </script>
+        <h3>Podemos ponerlo en la etiqueta, dentro de un atributo onclick</h3>
+        <button type="button" onclick='document.getElementById("pruebas").innerHTML = "Hello JavaScript!"'>Click
+            Me!</button>
+        <br>
+        <h3>Podemos ponerlo, dentro del head</h3>
+        <button type="button" onclick='myFunction01()'>Click Me!</button>
+        <br>
+        <h3>Podemos ponerlo, al final del body</h3>
+        <button type="button" onclick='myFunction02()'>Click Me!</button>
+        <br>
+        <h3>Podemos ponerlo, dentro de un archivo.js</h3>
+        <button type="button" onclick='myFunction03()'>Click Me!</button>
+
+        
+        <h2>What Can JavaScript Do?</h2>
+
+        <p>JavaScript can change HTML attribute values.</p>
+
+        <p>In this case JavaScript changes the value of the src (source) attribute of an image.</p>
+
+        <button onclick="BombillaOn()">Turn on the light</button>
+
+        <img id="myImage" src="BombillaOff.png" style="width:100px">
+
+        <button onclick="BombillaOff()">Turn off the light</button>
+                
+        <h2>What Can JavaScript Do?</h2>
+
+        <p id="demo">JavaScript can change the style of an HTML element.</p>
+        
+        <button type="button" onclick="cambiaTamanyoLetraGran()">Grande</button> 
+        <button type="button" onclick="cambiaTamanyoLetraPeq()">Pequenya</button>       
+        
+        
+        <h2>What Can JavaScript Do?</h2>
+
+        <p id="hidded">JavaScript can hide HTML elements.</p>
+
+        <button type="button" onclick="oculta()">Ocultar</button>
+        <button type="button" onclick="muestra()">Mostrar</button>
+
+
+
+
+
+
+
+
+        
+        <script>
+            function myFunction02() {
+                document.getElementById("pruebas").innerHTML = "Funcion02";
+            }
+        </script>
+    </body>
+</html>

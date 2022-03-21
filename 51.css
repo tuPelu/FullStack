@@ -1,0 +1,81 @@
+/* PSEUDOCLASES indican que selector solamente se verá afectada en un estado definido
+Sintaxis es selector:pseudoclase {
+
+} */
+
+/* unvisited link */
+  a:link {
+    color: red;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: green;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  } 
+
+/* MOSTRAR/OCULTAR SIN JAVASCRIPT */
+/* Ocultamos un selector que está dentro de un container: */
+  p.hidden {
+    display: none;
+    background-color: yellow;
+    padding: 20px;
+  }
+  
+/* Mostramos el selector cuando actuamos sobre el container: */
+  div:hover p.hidden {
+    display: block;
+  }
+
+
+  /* pseudo-elements */
+  /*Un pseudo-elemento CSS se usa para diseñar partes específicas de un elemento.
+Por ejemplo, se puede utilizar para:
+Aplicar estilo a la primera letra, o línea, de un elemento
+Insertar contenido antes o después del contenido de un elemento*/
+
+  /* Syntax
+selector::pseudo-element {
+  property: value;
+} */
+
+p.fl::first-line {
+    color: #ff0000;
+    font-variant: small-caps;
+  }
+
+  /* ::before inserta el contenico de content antes del selector */
+  h1.bef::before {
+    content: "Hola caracola";
+  }
+  h2.bef::before {
+    content: url("Casa.png");
+  }
+
+  /* ::before inserta el contenico de content antes del selector */
+  h1.af::after {
+    content: "Hola caracola";
+  }
+  h2.af::after {
+    content: url("Casa.png");
+  }
+
+
+  /* OPACIDAD SI HOVER */
+
+  img.op {
+    opacity: 0.5;
+  }
+  
+  img.op:hover {
+    opacity: 1.0;
+  }

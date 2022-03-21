@@ -1,0 +1,86 @@
+  /* SCROLL */
+  
+  .no-overflowTest {
+    background: #4CAF50;
+    color: blue;
+    padding: 15px;
+    width: 50%;
+    height: 100px;
+    border: 1px solid #ccc;
+  }
+  #overflowTest {
+    overflow: scroll;
+  }
+  #overflowTest-hidden {
+    overflow: hidden;
+  }
+  #overflowTest-auto {
+    overflow: auto;
+  }
+
+
+  /* FLOTAR */
+
+  img {
+    margin: 10px;
+  }
+  img.izq {
+    float: left;
+  }
+  img.der {
+    float: right;
+  }
+
+  
+  div {
+    padding: 15px; 
+    margin: 15px; 
+  }
+  
+  .left {
+    float: left;
+  }
+  
+  .div1 {
+    background: red;
+  }
+  
+  .div2  {
+    background: yellow;
+  }
+  
+  .div3  {
+    background: green;
+  }
+    /* CLEAR */
+  .div1-clear {
+    float: left;
+    padding: 10px;
+    border: 3px solid #73AD21;
+  }
+  
+  .div2-clear {
+    padding: 10px;
+    border: 3px solid red;
+  }
+  
+  .div4-clear {
+    padding: 10px;
+    border: 3px solid red;
+    clear: left;
+  }
+
+  /* CLEARFIX */
+
+  div.no-clearfix {
+    border: 3px solid #4CAF50;
+    padding: 5px;
+  }
+  
+  .img1 {
+    float: right;
+  }
+  
+  .clearfix {
+    overflow: auto;
+  }

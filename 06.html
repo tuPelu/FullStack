@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Explicacion de clases y id</title>
+</head>
+<body>
+	 <!--  <tagname>texto</tagname>  <title>Mi titulo</title>
+			<tagname atributo="texto">   <img src="casa.png">
+			<tagname class="mi-casa01  mi-casa02" id="mi-id">Texto</tagname> -->
+
+	<h1 class="gran azul" id="titulo-principal">Capitulo I</h1>
+	<h1 class="peq azul" id="titulo-secundario">Introduccion</h1>
+	<p>De como inserte mi primera imagen</p>
+	<h1 class="peq rojo" id="titulo-terciario">Desglose</h1>
+	<p>Era un dia nublado....</p>
+	<img src="https://tupelu.es/full_stack/john/casa.png">
+
+	<h1 class="gran azul" id="titulo-principal-pag02">Capitulo II</h1>
+	<h1 class="peq azul" id="titulo-secundario-pag02">Introduccion</h1>
+	<p>De como inserte mi primer link</p>
+	<h1 class="peq rojo" id="titulo-terciario-pag02">Desglose</h1>
+	<p>Era un dia feliz....</p>
+	<a href="https://tupelu.es/full_stack/john/01.html" target="_blank">Clic Aqui para el Link</a>
+
+	<h1 class="gran azul" id="titulo-principal-pag03">Capitulo III</h1>
+	<h1 class="peq azul" id="titulo-secundario-pag03">Introduccion</h1>
+	<p>De como inserte mi primer formulario</p>
+	<h1 class="peq rojo" id="titulo-terciario-pag03">Desglose</h1>
+	<p>Era un dia formidable....</p>
+
+	<!--https://www.w3schools.com/html/html_form_elements.asp-->
+	<form action="https://tupelu.es/full_stack/angel/07.php">
+		<label for="name">Nombre y Apellidos</label>
+		<input type="text" name="name" id="name" placeholder="Escribe tu nombre">
+		<br>
+		<label for="email">Email</label>
+		<input type="email" name="email" id="email" placeholder="Escribe tu email">
+		<br>
+		<label for="cars">Choose a car:</label>
+		<select id="cars" name="cars">
+		  <option value="volvo">Volvo</option>
+		  <option value="saab">Saab</option>
+		  <option value="fiat">Fiat</option>
+		  <option value="audi">Audi</option>
+		  <option value="notengo">No tengo</option>
+		</select>
+		<br>
+		<label for="cities">Choose a car:</label>
+		<select id="cities" name="cities" size="2" multiple>
+		  <option value="bcn">BARCELONA</option>
+		  <option value="sbd">SABADELL</option>
+		  <option value="ny">NEW YORK</option>
+		  <option value="rma">ROMA</option>
+		</select>
+		<br>
+		<label for="message">Message:</label>
+		<textarea name="message" rows="10" cols="20" style="color: #ff0000; font-size: large;">
+			The cat was playing in the garden.
+		</textarea>
+		<br>
+		<input list="browsers">
+		<datalist id="browsers">
+		  <option value="Internet Explorer">
+		  <option value="Firefox">
+		  <option value="Chrome">
+		  <option value="Opera">
+		  <option value="Safari">
+		</datalist>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<input type="submit" value="Enviar">
+		<br>
+		<br>
+		<button type="button" onclick="alert('Hello World!')">Click Me!</button>
+		<br>
+		<br>
+		<a onclick="alert('Hello World!')">Click Me!</a>
+		<br>
+		<br>
+		<a onmouseover="alert('Hello World!')">Touch Me!</a>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+	</form>
+</body>
+</html>

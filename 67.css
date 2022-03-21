@@ -1,0 +1,33 @@
+div.yellow{
+    background-color: yellow;
+}
+div.blue{
+    background-color: blue;
+}
+div.red{
+    background-color: red;
+}
+div.green{
+    background-color: green;
+}
+div.purple{
+    background-color: purple;
+}
+.orange{
+    background-color: orange;
+}
+.nav{
+    background-color: #444444;
+}
+.header{
+    background-color: grey;
+}
+.body{
+    background-color: brown;
+}
+*{
+    margin: 2%;
+}
+div.row{
+    margin: 2%;
+}

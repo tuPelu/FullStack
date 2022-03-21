@@ -1,0 +1,13 @@
+/* La importancia del !important */
+
+.button {
+    background-color: #8c8c8c !important;
+    color: white !important;
+    padding: 5px !important;
+    border: 1px solid black !important; 
+  }
+  
+  #myDiv a {
+    color: red;
+    background-color: yellow;  
+  }

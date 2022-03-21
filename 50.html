@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="51.css">
+</head>
+<body>
+    
+<h2>Styling a link depending on state</h2>
+
+<p><b><a href="https://google.es" target="_blank">This is a link</a></b></p>
+<p><b>Note:</b> a:hover MUST come after a:link and a:visited in the CSS definition in order to be effective.</p>
+<p><b>Note:</b> a:active MUST come after a:hover in the CSS definition in order to be effective.</p>
+
+
+<div>Hover over this div element to show the p element
+    <p class="hidden">Apareceee</p>
+  </div>
+
+
+  <p class="fl">You can use the ::first-line pseudo-element to add a special effect to the first line of a text. Some more text. And even more, and more, and more, and more, and more, and more, and more, and more, and more, and more, and more, and more.</p>
+
+  <p>The ::before pseudo-element inserts content before the content of an element.</p>
+
+  <h1 class="bef">This is a heading</h1>
+  <h2 class="bef">This is a H2</h2>
+  <p>The ::after pseudo-element inserts content before the content of an element.</p>
+
+  <h1 class="af">This is a heading</h1>
+  <h2 class="af">This is a H2</h2>
+
+  <h1>Image Transparency</h1>
+  <p>The opacity property is often used together with the :hover selector to change the opacity on mouse-over:</p>
+  <img class="op" src="Casa.png" alt="Forest" width="170" height="100">
+</body>
+</html>

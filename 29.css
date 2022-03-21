@@ -1,0 +1,111 @@
+
+h1 {
+    text-align: center;
+  }
+  
+  h2 {
+    text-align: left;
+  }
+  
+  h3 {
+    text-align: right;
+  }
+  
+div {
+    border: 1px solid black;
+    padding: 10px;
+    width: 200px;
+    height: 200px;
+    text-align: justify;
+  }
+  p.a {
+    text-align-last: right;
+  }
+  
+  p.b {
+    text-align-last: center;
+  }
+  
+  p.c {
+    text-align-last: justify;
+  }
+  
+img.a {
+    vertical-align: baseline;
+  }
+  
+  img.b {
+    vertical-align: text-top;
+  }
+  
+  img.c {
+    vertical-align: text-bottom;
+  }
+  
+  img.d {
+    vertical-align: sub;
+  }
+  
+  img.e {
+    vertical-align: super;
+  }
+  h1 {
+    text-decoration: overline;
+    text-decoration-color: blue;  
+  }
+  
+  h2 {
+    text-decoration: overline underline;
+    text-decoration-color: #70f008;  
+  }
+  
+  h3 {
+    text-decoration: underline;
+    text-decoration-color: red;  
+  }
+  
+  p.ex {
+    text-decoration: line-through;
+    text-decoration-style: double;
+    text-decoration-thickness: 5px;  
+    text-decoration-color: red;  
+  }
+
+  
+a {
+    text-decoration: none;
+  }
+  
+p.small {
+    line-height: 0.7;
+  }
+  
+  p.big {
+    line-height: 1.8;
+  }
+
+  h1.shad {
+    text-shadow: 2px 2px 5px red;
+  }
+
+
+  h1.em {
+    font-size: 2.5em; /* 40px/16=2.5em */
+  }
+  
+  h2.em  {
+    font-size: 1.875em; /* 30px/16=1.875em */
+  }
+  
+  p.em  {
+    font-size: 0.875em; /* 14px/16=0.875em */
+  }
+
+  h1.vw {    
+  font-size:10vw
+  }
+  
+  h1.sofi {    
+    font-family: "Sofia", sans-serif;
+    }
+  

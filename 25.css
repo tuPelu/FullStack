@@ -1,0 +1,54 @@
+/*Propiedades Color, Background-color y Border:*/
+  
+  h1 {
+    background-color: green;
+    opacity: 0.3;
+  }  
+  div {
+    background-color: lightblue;
+  }  
+  p {
+    background-color: yellow;
+  }
+  body {
+    background-image: url("Casa.png");
+    background-image: url("https://www.w3schools.com/images/colorpicker2000.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;    
+  }
+  p.dotted {
+      border-style: dotted;
+  }
+  p.dashed {border-style: dashed;}
+  p.solid {border-style: solid;}
+  p.double {border-style: double;}
+  p.groove {border-style: groove;}
+  p.ridge {border-style: ridge;}
+  p.inset {border-style: inset;}
+  p.outset {border-style: outset;}
+  p.none {border-style: none;}
+  p.hidden {border-style: hidden;}
+  p.mix {border-style: dotted dashed solid double;
+  }
+
+  p.three {
+    border-style: solid;
+    border-width: 25px 10px 4px 35px; /* 25px top, 10px right, 4px bottom and 35px left */
+  }
+  p.normal {
+    border: 2px solid red;
+    padding: 5px;
+  }  
+  p.round1 {
+    border: 2px solid red;
+    border-radius: 5px;
+  }  
+  p.round2 {
+    border: 2px solid red;
+    border-radius: 8px;
+  }  
+  p.round3 {
+    border: 2px solid red;
+    border-radius: 12px;
+  }

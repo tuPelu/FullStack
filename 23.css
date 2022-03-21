@@ -1,0 +1,32 @@
+/*styles-css*/
+  /*El Selector es una etiqueta*/
+  h1 {
+    color: orange; /* */
+  }
+  p, h1{
+    text-align: center;    
+    color: greenyellow;
+  } 
+  /*El Selector es un ID*/
+  #para1 {
+    text-align: right;
+    color: blue;
+  }
+  /*El Selector es una clase*/
+  p.left {
+    text-align: left;
+    color: red;
+  }
+  p.center {
+    text-align: center;
+    color: red;
+  }  
+  p.large {
+    font-size: 300%;
+  }
+  h4{
+    border:2px solid Tomato;
+  }
+  body{
+      background-color: #0000ff00;
+  }
